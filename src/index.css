@@ -1,2 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @import "tailwindcss";
 @plugin "daisyui";
+
+
+
+@layer base {
+  body {
+    font-family: "Manrope", sans-serif;
+  }
+}
+
+
+
+@layer components {
+
+.gradient{
+  @apply bg-gradient-to-r from-[#4f39f6] to-[#9514fa] hover:from-[#9514fa] hover:to-[#4f39f6];
+}
+.section{
+  @apply max-w-[1200px]  mx-auto p-4
+}
+}
+

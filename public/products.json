@@ -1,0 +1,61 @@
+[
+    {
+        "productCatagory" : "Best Seller",
+        "productImg" : "./products/writing_2327400 1.png",
+        "productTitle" : "Ai Writing Pro",
+        "productDescription" : "Generate high-quality content, blogs, and marketing copy in seconds with advanced Ai.",
+        "productPrice" : 29,
+        "productTime" : "Mo",
+        "productFeature" : ["Unlimited Ai generations", "50+ writing templetes", "Grammar checker"]
+    },
+        {
+        "productCatagory" : "Popular",
+        "productImg" : "./products/design-tool.png",
+        "productTitle" : "Design Templates Pack",
+        "productDescription" : "2000+ premium templates for social media, presentations, and marketing materials.",
+        "productPrice" : 49,
+        "productTime" : "One-time",
+        "productFeature" : ["2000+ templates ", "Monthly updates", "Commercial license"]
+    }
+    ,
+        {
+        "productCatagory" : "New",
+        "productImg" : "./products/camera_8775444-1.png",
+        "productTitle" : "Premium Stock Assets",
+        "productDescription" : "Access millions of royalty-free photos, videos, and graphics for your projects.",
+        "productPrice" : 19,
+        "productTime" : "Mo",
+        "productFeature" : ["10M+ assets ", "Commercial use", "No attribution"]
+    }
+    , 
+        {
+        "productCatagory" : "Popular",
+        "productImg" : "./products/operation.png",
+        "productTitle" : "Automation ToolKit",
+        "productDescription" : "Automate repetitive tasks and streamline your workflow with powerful tools.",
+        "productPrice" : 79,
+        "productTime" : "Mo",
+        "productFeature" : ["50+ automations ", "API access", "Custom workflows"]
+    }
+    ,
+        {
+        "productCatagory" : "New",
+        "productImg" : "./products/portfolio.png",
+        "productTitle" : "Resume Builder Pro",
+        "productDescription" : "Create professional resumes and cover letters that land interviews.",
+        "productPrice" : 15,
+        "productTime" : "One-time",
+        "productFeature" : ["100+ templates", "ATS optimization ", "Export to PDF"]
+    }
+    ,
+        {
+        "productCatagory" : "Best Seller",
+        "productImg" : "./products/social-media.png",
+        "productTitle" : "Social Media Content Kit",
+        "productDescription" : "Complete toolkit for creating engaging social media content across all platforms.",
+        "productPrice" : 39,
+        "productTime" : " ",
+        "productFeature" : ["5000+ assets ", "Scheduler included ", "Analytics dashboard"]
+    }
+
+]
