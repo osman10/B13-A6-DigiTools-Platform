@@ -23,7 +23,7 @@ const Navbar = ({selectedProducts}) => {
                         </ul>
                     </div>
                     <a>
-                        <img src={logo} alt="Digitools" className='w-[180px] h-[40px] cursor-pointer' />
+                        <img src={logo} alt="Digitools" className='w-[80px] h-[25px] md:w-[180px] md:h-[40px] cursor-pointer' />
                     </a>
                 </div>
 
@@ -43,7 +43,7 @@ const Navbar = ({selectedProducts}) => {
                         {/* cart icons */}
                         <CartIcon selectedProducts={selectedProducts}/>
                         <a href="">Login</a>
-                       <button className="gradient py-2 px-3 rounded-full font-bold text-white transition duration-300">Get Started</button>
+                       <button className="gradient py-1 md:py-2 px-2 md:px-3 text-sm md:text-xl rounded-full font-bold text-white transition duration-300">Get Started</button>
                     </div>
                 </div>
             </div>

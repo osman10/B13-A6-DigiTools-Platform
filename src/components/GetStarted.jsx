@@ -4,7 +4,7 @@ import rocket from '../assets/rocket.png';
 
 const GetStarted = () => {
     return (
-        <div className='bg-[#f9fafc] py-[140px]'>
+        <div className='bg-[#f9fafc] py-0 md:py-[140px]'>
             {/* Card */}
             <div className="section">
                 <h1 className='text-center text-5xl font-extrabold my-4'>Get Started in 3 Steps</h1>

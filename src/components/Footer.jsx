@@ -2,9 +2,9 @@ import logo from '../assets/digitools.png'
 
 const Footer = () => {
     return (
-        <div className='bg-[#101727]'>
+        <div className='bg-[#101727] '>
             <div className='section py-[120px] border-b border-[#e5e7eb]'>
-                <footer className="footer sm:footer-horizontal text-base-content p-10 bg-[#101727] text-white">
+                <footer className="footer sm:footer-horizontal text-base-content  p-10 bg-[#101727] text-white">
                     <aside>
 
                         <a>

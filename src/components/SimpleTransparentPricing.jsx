@@ -3,7 +3,7 @@ import { IoCheckmarkOutline } from "react-icons/io5";
 
 const SimpleTransparentPricing = () => {
     return (
-        <div className='py-[140px]'>
+        <div className='py-0 md:py-[140px]'>
 
             <div className="section">
                 <h1 className='text-center text-5xl font-extrabold my-4'>Simple, Transparent Pricing</h1>
