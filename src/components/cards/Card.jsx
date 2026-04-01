@@ -23,7 +23,14 @@ const Card = ({item, selectedProducts, setselectedProducts}) => {
 
       <div className="flex flex-col justify-between max-w-[380px] min-h-[414px] bg-white rounded-2xl overflow-hidden hover:shadow-md transition duration-300 p-4 border border-gray-300">
        <div className='flex justify-end'>
-         <p className='bg-amber-200 text-amber-600 rounded-full px-2 w-fit'>{item.productCatagory}</p>
+         <p
+            className={`rounded-full px-2 w-fit
+              ${item.productCatagory === "Popular" && "bg-violet-200 text-violet-600"}
+              ${item.productCatagory === "New" && "bg-green-200 text-green-600"}
+              ${item.productCatagory === "Best Seller" && "bg-yellow-200 text-yellow-600"}
+            `}>
+              {item.productCatagory}
+          </p>
        </div>
        <div className='w-[60px] h-[60px] flex justify-center items-center rounded-full border-[0.5px] border-gray-200'>
             <img src={item.productImg} alt="card"/>
@@ -46,5 +53,4 @@ const Card = ({item, selectedProducts, setselectedProducts}) => {
 
     );
 };
-
 export default Card;

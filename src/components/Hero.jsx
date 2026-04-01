@@ -16,7 +16,7 @@ const Hero = () => {
                 <p className=" text-[#627382] leading-10 text-[18px] mt-4">Access premium AI tools, design assets, templates, and productivity <br/> software—all in one place. Start creating faster today. <br/>Explore Products Explore Products </p>
                 <div className="flex gap-3 items-center mt-6">
                     <button className="px-5 py-4 font-bold rounded-full gradient text-white ">Explore Products</button>
-                    <button className="px-5 py-4 font-bold rounded-full border border-violet-500"><span className="flex items-center justify-between gap-1 bg-gradient-to-r from-[#6f5fed] to-[#9514fa] bg-clip-text"><CiPlay1 /> Watch Demo</span></button>
+                    <button className="px-5 py-4 font-bold rounded-full border border-violet-500 hover:bg-violet-500 hover:text-white"><span className="flex items-center justify-between gap-1 bg-gradient-to-r from-[#6f5fed] to-[#9514fa] bg-clip-text"><CiPlay1 /> Watch Demo</span></button>
                 </div>
             </div>
             <div><img src={banner} alt="Banner" /></div>

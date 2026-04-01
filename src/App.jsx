@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Count from './components/Count';
 import Cards from './components/cards/Cards';
 import {useState } from 'react';
+import GetStarted from './components/GetStarted';
 
 export const fetchProducts = async () => {
   const res = await fetch("/products.json");
@@ -21,6 +22,7 @@ const App = () => {
     <Hero/>
     <Count/>
     <Cards productsData={productsData} selectedProducts={selectedProducts} setselectedProducts={setselectedProducts}/>
+    <GetStarted/>
 
     </>
   );
