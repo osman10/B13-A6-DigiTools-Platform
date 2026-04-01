@@ -13,10 +13,11 @@ const productsData = fetchProducts( )
 
 const App = () => {
   const[selectedProducts, setselectedProducts]=useState([])
+  
 
   return (
     <>
-    <Navbar/>
+    <Navbar selectedProducts={selectedProducts}/>
     <Hero/>
     <Count/>
     <Cards productsData={productsData} selectedProducts={selectedProducts} setselectedProducts={setselectedProducts}/>

@@ -1,9 +1,12 @@
 import React from 'react';
+import SelectedProductList from '../SelectedProductList';
+import EmptySelectedProductList from '../EmptySelectedProductList';
 
-const SelectedProducts = () => {
+const SelectedProducts = ({selectedProducts, setselectedProducts }) => {
+
     return (
         <div className='section'>
-            Selected Cards
+           {selectedProducts.length > 0 ? <SelectedProductList selectedProducts={selectedProducts} setselectedProducts={setselectedProducts}/> : <EmptySelectedProductList/>}
         </div>
     );
 };

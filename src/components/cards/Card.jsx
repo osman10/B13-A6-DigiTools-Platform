@@ -1,12 +1,21 @@
 import React, { useState } from 'react';
 import { IoCheckmarkOutline } from 'react-icons/io5';
+import { toast } from 'react-toastify';
 
 const Card = ({item, selectedProducts, setselectedProducts}) => {
     const[buyNow, setBuyNow]=useState("Buy Now");
 
     const handleBuyNow =(item)=>{
+    // check already add
+      const alreadyAdded = selectedProducts.find(element => element.id === item.id);
+      
+      if(alreadyAdded){
+        toast.error("Already added to cart.")
+      }else{
         setBuyNow("Added to Cart")
         setselectedProducts([...selectedProducts, item])
+        toast("Item added successfully.")
+      }
     }
 
 

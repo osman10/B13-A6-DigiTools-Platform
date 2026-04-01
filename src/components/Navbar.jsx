@@ -2,7 +2,8 @@ import { FaShoppingCart } from "react-icons/fa";
 import logo from "../assets/digitools.png"
 import CartIcon from "./CartIcon";
 
-const Navbar = () => {
+const Navbar = ({selectedProducts}) => {
+    
     return (
         <div>
             <div className="navbar bg-base-100 shadow-sm px-5">
@@ -39,7 +40,8 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
                     <div className='flex gap-4 justify-between items-center'>
-                        <CartIcon/>
+                        {/* cart icons */}
+                        <CartIcon selectedProducts={selectedProducts}/>
                         <a href="">Login</a>
                        <button className="gradient py-2 px-3 rounded-full font-bold text-white transition duration-300">Get Started</button>
                     </div>

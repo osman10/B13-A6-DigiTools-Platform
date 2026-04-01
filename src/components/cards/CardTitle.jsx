@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const CardTitle = ({activeBtn, setActiveBtn}) => {
+const CardTitle = ({activeBtn, setActiveBtn, selectedProducts}) => {
   
 
     return (
@@ -10,7 +10,7 @@ const CardTitle = ({activeBtn, setActiveBtn}) => {
                 to boost your productivity and creativity.</p>
             <div className='flex justify-center  mx-auto mt-4'>
                 <button className={`py-3 px-5 rounded-full font-bold ${activeBtn === "product" ? 'gradient text-white' : 'bg-none'}`} onClick={() => setActiveBtn("product")}>Products</button>
-                <button className={`py-3 px-5 rounded-full font-bold ${activeBtn === "cart" ? 'gradient text-white' : 'bg-none'} `} onClick={() => setActiveBtn("cart")}>Cart(2)</button>
+                <button className={`py-3 px-5 rounded-full font-bold ${activeBtn === "cart" ? 'gradient text-white' : 'bg-none'} `} onClick={() => setActiveBtn("cart")}>Cart({selectedProducts.length})</button>
             </div>
         </div>
     );

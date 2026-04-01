@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "productCatagory" : "Best Seller",
         "productImg" : "./products/writing_2327400 1.png",
         "productTitle" : "Ai Writing Pro",
@@ -9,6 +10,7 @@
         "productFeature" : ["Unlimited Ai generations", "50+ writing templetes", "Grammar checker"]
     },
         {
+        "id": 2,    
         "productCatagory" : "Popular",
         "productImg" : "./products/design-tool.png",
         "productTitle" : "Design Templates Pack",
@@ -19,6 +21,7 @@
     }
     ,
         {
+        "id": 3,
         "productCatagory" : "New",
         "productImg" : "./products/camera_8775444-1.png",
         "productTitle" : "Premium Stock Assets",
@@ -29,6 +32,7 @@
     }
     , 
         {
+        "id": 4,
         "productCatagory" : "Popular",
         "productImg" : "./products/operation.png",
         "productTitle" : "Automation ToolKit",
@@ -39,6 +43,7 @@
     }
     ,
         {
+        "id": 5,
         "productCatagory" : "New",
         "productImg" : "./products/portfolio.png",
         "productTitle" : "Resume Builder Pro",
@@ -49,6 +54,7 @@
     }
     ,
         {
+        "id": 6,
         "productCatagory" : "Best Seller",
         "productImg" : "./products/social-media.png",
         "productTitle" : "Social Media Content Kit",
@@ -57,5 +63,4 @@
         "productTime" : " ",
         "productFeature" : ["5000+ assets ", "Scheduler included ", "Analytics dashboard"]
     }
-
 ]
