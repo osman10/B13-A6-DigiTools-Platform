@@ -1,4 +1,7 @@
-import user from "../assets/user.png"
+import user from "../assets/user.png";
+import pack from '../assets/package.png';
+import rocket from '../assets/rocket.png';
+
 const GetStarted = () => {
     return (
         <div className='bg-[#f9fafc] py-[140px]'>
@@ -36,10 +39,10 @@ const GetStarted = () => {
                         </div>
                         <div className="flex flex-col items-center justify-center mt-7">
                             <div className='w-[100px] h-[100px] flex justify-center items-center rounded-full bg-violet-200'>
-                                <img src={user} alt="user" />
+                                <img src={pack} alt="user" />
                             </div>
-                            <h1 className='text-2xl text-[#101727] mt-4 font-bold'>Create Account</h1>
-                            <p className='mt-3 mb-3 text-gray-500 text-center'>Sign up for free in seconds. No credit card required to get started.</p>
+                            <h1 className='text-2xl text-[#101727] mt-4 font-bold'>Choose Products</h1>
+                            <p className='mt-3 mb-3 text-gray-500 text-center'>Browse our catalog and select the tools that fit your needs.</p>
                         </div>
                     </div>
 
@@ -53,18 +56,12 @@ const GetStarted = () => {
                         </div>
                         <div className="flex flex-col items-center justify-center mt-7">
                             <div className='w-[100px] h-[100px] flex justify-center items-center rounded-full bg-violet-200'>
-                                <img src={user} alt="user" />
+                                <img src={rocket} alt="user" />
                             </div>
-                            <h1 className='text-2xl text-[#101727] mt-4 font-bold'>Create Account</h1>
-                            <p className='mt-3 mb-3 text-gray-500 text-center'>Sign up for free in seconds. No credit card required to get started.</p>
+                            <h1 className='text-2xl text-[#101727] mt-4 font-bold'>Start Creating</h1>
+                            <p className='mt-3 mb-3 text-gray-500 text-center'>Download and start using your premium tools immediately.</p>
                         </div>
                     </div>
-
-
-
-
-
-
                 </div>
             </div>
         </div>

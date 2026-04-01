@@ -4,6 +4,9 @@ import Count from './components/Count';
 import Cards from './components/cards/Cards';
 import {useState } from 'react';
 import GetStarted from './components/GetStarted';
+import SimpleTransparentPricing from './components/SimpleTransparentPricing';
+import Workflow from './components/Workflow';
+import Footer from './components/Footer';
 
 export const fetchProducts = async () => {
   const res = await fetch("/products.json");
@@ -23,6 +26,9 @@ const App = () => {
     <Count/>
     <Cards productsData={productsData} selectedProducts={selectedProducts} setselectedProducts={setselectedProducts}/>
     <GetStarted/>
+    <SimpleTransparentPricing/>
+    <Workflow/>
+    <Footer/>
 
     </>
   );
